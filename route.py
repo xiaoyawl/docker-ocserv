@@ -6,7 +6,7 @@ import glob
 import socket
 import xml.etree.ElementTree
 import urllib2
-
+import os
 
 def get_netmask(mask):
     bits = 0
@@ -61,7 +61,8 @@ if __name__ == "__main__":
                     ip = socket.gethostbyname(domain)
                     print("IP: %s" % ip),
                     decimal_ip = get_decimal_ip(ip)
-                    exist = False
+                    #exist = False
+                    exist = True
                     for t in route_table:
                         if (get_decimal_ip(route_table[t][1]) & decimal_ip) == t:
                             exist = True

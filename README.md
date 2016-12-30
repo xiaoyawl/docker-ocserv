@@ -60,6 +60,9 @@ The default values of the above environment variables:
 |   **ADD_ROUTE_GROUP**    |      disable      | 当值位enable时，可添加一个额外路由组。 |
 | **ADD_ROUTE_GROUP_FILE** | /tmp/ocserv_group |       额外路由文件路径。        |
 | **ADD_ROUTE_GROUP_NAME** |        DS         |       额外路由组的组名。        |
+| **DEFAULTE_CONF**        | null | 当值为disable时,容器将不对配置文件做修改 |
+| **OCSERV_CONF_DIR** | /etc/ocserv | 指定ocserv配置文件目录路径 |
+
 
 ### Running examples
 
