@@ -2,7 +2,7 @@ FROM benyoo/alpine:3.4.20160812
 
 MAINTAINER from www.dwhd.org by lookback (mondeolove@gmail.com)
 
-ARG OC_VERSION=${OC_VERSION:-0.11.5}
+ARG OC_VERSION=${OC_VERSION:-0.11.8}
 ARG GLIBC_VERSION=${GLIBC_VERSION:-2.23-r3}
 ENV INSTALL_DIR=/usr/local/ocserv \
 	CONF_DIR=/etc/ocserv \
